@@ -1,0 +1,88 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:Arial;
+	font-size:15px;
+}
+/* section1 */
+.image{
+	background-image:url("../image/beachshowcase.jpg");
+	background-size:cover;
+	background-position: center;
+    height:750px;
+	text-align:center;
+	padding:20px 0px;
+}
+.text_cont{
+	color:#926239;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50% ,-50% );
+	width:100%;
+}
+.first-line{
+	font-size:50px;
+	font-weight:bold;
+}
+.second-line{
+	font-size:20px;
+	margin-top:8px;
+}	
+.button{
+	margin-top:20px;
+	color:#926239;
+	padding:10px 20px;
+	border-radius:10px;
+	border:1px solid #926239;
+	font-size:17px;
+}
+.button:hover{
+	background-color:#926239;
+	color:white;
+}
+/* section2 */
+.paragraph1{
+    padding:20px;
+    padding:20px;
+	background-color:#926239;
+	color:white;
+    line-height:1.7;
+}
+.paragraph2{
+    padding:20px;
+	background-color:#f4f4f4;
+	line-height:1.7;
+}
+/* section3 */
+.box{
+	display:flex;
+}
+.box1{
+	line-height:1.7;
+	padding:20px;
+	background-color:#926239;
+	color:white;
+}
+.box2{
+	line-height:1.7;
+	padding:20px;
+	background-color:#f9f9f9;
+}
+.box3{
+	
+	line-height:1.7;
+	padding:20px;
+	background-color:#926239;
+	color:white;
+}
+
+/* media query */
+@media (min-width:320px) and (max-width:500px) {
+	.first-line{
+		font-size:40px;
+	}
+}
