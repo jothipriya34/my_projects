@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Corinthia:wght@700&family=Open+Sans:ital,wght@1,300&family=Roboto&family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+	background-color:#eeeeee;
+}
+.container{
+	box-shadow:30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+.row{
+	margin:0;
+	width:100%;
+	background-color:white;
+}
+.left_col{
+	position:absolute;
+	top:50%;
+	left:30%;
+	transform:translate(-50%, -50%);
+}
+.title{
+	font-size:30px;
+}
+.button{
+	margin-top:20px;
+	padding:10px 35px;
+	border-radius:30px;
+	background-color:#ffffff;
+	border:1px solid #e5e5e5;
+	transition:1s;
+}
+.button:hover{
+	background-color:#eeeeee;
+	cursor:pointer;
+}
+/* image */
+.right_col{
+	width:100%;
+	height:100vh;
+}
+/* img */
+img{
+	width:100%;
+}
+.image_letter1{
+	height:60px;
+	background-color:#333333;
+	color:#e9e6cf;
+}
+.image_letter{
+    text-align:center;
+	padding-top:18px;
+}
+.img_text{
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:15px;
+	background:#eeeeee;
+}
+.heading{
+	font-weight:bold;
+	font-size:20px;
+	padding:5px 0 10px 0;
+}
+
+/* footer */
+.footer{
+	width:100%;
+	padding-bottom:10px;
+}
+.footer_text{
+	text-align:center;
+	margin-bottom:10px;
+}
+.footer_text1{
+	padding-top:40px;
+	font-size:40px;
+	font-weight:bold;
+	color:#333333;
+}
+.footer_txt{
+	font-size:20px;
+}
+@media (min-width:320px) and (max-width:699px){
+	.row{
+		display:block;	
+		}
+	.header_text, .header_image{
+		width:100%;
+		height:300px;
+	}	
+	.left_col{
+		position:relative;
+		top:17% !important;
+		left:0;
+		transform:translate(0,0);
+	}
+	.container > *{
+		position:relative;
+	}
+	.footer_text1{
+		font-size:30px;
+	}
+	.footer_txt{
+	    font-size:15px;
+    }
+}
+@media (min-width:932px){
+    .container{
+		width:70%;
+	}
+}
+@media (min-width:700px) and (max-width:932px){
+    .container{
+		width:100%;
+	}
+	.left_col{
+	position:absolute;
+	top:50%;
+	left:28%;
+	transform:translate(-50%, -50%);
+    }
+} 
+
+/* next.page */
+.next_image{
+	width:100%;
+    height:50%;
+}
+.same_image{
+	width:150px;
+	height:150px;
+}
